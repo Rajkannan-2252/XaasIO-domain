@@ -8,22 +8,51 @@ object:
     display_name: Methods
   schema:
   - field:
-      aetype: method
-      name: delete_powered_off_vms
-      display_name: Delete Powered Off VMs
+      aetype: assertion
+      name: guard
+      display_name: Guard
+      datatype: string
+      priority: 1
+      default_value: 'true'
   - field:
       aetype: method
       name: on_entry
-      display_name: On Entry Method
+      display_name: On Entry
+      datatype: string
+      priority: 2
+  - field:
+      aetype: relationship
+      name: rel1
+      display_name: Relationship 1
+      datatype: string
+      priority: 3
   - field:
       aetype: method
       name: meth1
       display_name: Method 1
+      datatype: string
+      priority: 4
+  - field:
+      aetype: relationship
+      name: rel2
+      display_name: Relationship 2
+      datatype: string
+      priority: 5
   - field:
       aetype: method
       name: meth2
       display_name: Method 2
+      datatype: string
+      priority: 6
+  - field:
+      aetype: relationship
+      name: rel3
+      display_name: Relationship 3
+      datatype: string
+      priority: 7
   - field:
       aetype: method
       name: meth3
       display_name: Method 3
+      datatype: string
+      priority: 8
