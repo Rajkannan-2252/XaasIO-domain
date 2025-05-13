@@ -1,0 +1,11 @@
+---
+object_type: domain
+version: 1.0
+object:
+  attributes:
+    name: XaasIO
+    description: XaasIO Automation Domain
+    display_name: XaasIO
+    enabled: true
+    priority: 10
+    source: user

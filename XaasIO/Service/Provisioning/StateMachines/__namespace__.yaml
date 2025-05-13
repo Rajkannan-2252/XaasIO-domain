@@ -1,0 +1,8 @@
+---
+object_type: namespace
+version: 1.0
+object:
+  attributes:
+    name: StateMachines
+    description: State Machines Namespace
+    display_name: StateMachines

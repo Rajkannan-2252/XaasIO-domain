@@ -1,0 +1,8 @@
+---
+object_type: namespace
+version: 1.0
+object:
+  attributes:
+    name: Provisioning
+    description: Provisioning Automation Namespace
+    display_name: Provisioning

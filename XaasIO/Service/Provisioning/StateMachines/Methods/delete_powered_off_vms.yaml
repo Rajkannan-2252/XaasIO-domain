@@ -1,0 +1,25 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    name: delete_powered_off_vms
+    display_name: Delete Powered Off VMs
+    description: Identifies and deletes powered off VMs
+  fields:
+  - guard:
+      value: 'true'
+  - on_entry:
+      value: on_entry
+  - rel1:
+      value: "/XaasIO/Service/Provisioning/StateMachines/Methods/delete_powered_off_vms"
+  - meth1:
+      value: meth1
+  - rel2:
+      value: rel2
+  - meth2:
+      value: meth2
+  - rel3:
+      value: rel3
+  - meth3:
+      value: meth3
