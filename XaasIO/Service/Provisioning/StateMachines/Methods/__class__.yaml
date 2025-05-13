@@ -6,11 +6,24 @@ object:
     name: Methods
     description: Automation Methods
     display_name: Methods
-    instance_name:
-    - delete_powered_off_vms
-    method_name:
-    - delete_powered_off_vms
-    - on_entry
-    - meth1
-    - meth2
-    - meth3
+  schema:
+  - field:
+      aetype: method
+      name: delete_powered_off_vms
+      display_name: Delete Powered Off VMs
+  - field:
+      aetype: method
+      name: on_entry
+      display_name: On Entry Method
+  - field:
+      aetype: method
+      name: meth1
+      display_name: Method 1
+  - field:
+      aetype: method
+      name: meth2
+      display_name: Method 2
+  - field:
+      aetype: method
+      name: meth3
+      display_name: Method 3
