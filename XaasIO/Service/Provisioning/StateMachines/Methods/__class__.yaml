@@ -6,9 +6,9 @@ object:
     name: Methods
     description: Automation Methods
     display_name: Methods
-    instances:
+    instance_name:
     - delete_powered_off_vms
-    methods:
+    method_name:
     - delete_powered_off_vms
     - on_entry
     - meth1
